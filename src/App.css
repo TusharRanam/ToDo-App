@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #efefef !important;
+}
+
+.cardHeader {
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: 600;
+    border-bottom: 1px solid lightgray;
+}
+.cardBody {
+    background-color: #ffbc00;
+    display: flex;
+    justify-content: center;
+}
+.buttonCss {
+    color: #fff !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+}
+
+.addIcon {
+    font-size: 3rem !important;
+    background-color: #ffbc00;
+    border-radius: 50%;
+    color: white;
+}
+
+.addDiv {
+    position: absolute;
+    /* top: 27rem; */
+    right: 0rem;
+    margin-top: 2rem;
+}
+
+.footer  {
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+    background-color: white;
+}
+
+.foot {
+    /* text-align: left; */
+}
+/* .foot:hover {
+    color: #ffbc00;
+} */
+
+.Footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    width: 100% !important;
+    width: calc(100% - 240px) !important;
+    margin-left: 240px !important;
+    text-align: center;
+    background-color: #fff;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+@media (max-width: 425px) {
+    .Footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        z-index: 1000;
+        width: 100% !important;
+        width: calc(100% -0) !important;
+        margin-left: 0 !important;
+        text-align: center;
+        background-color: #fff;
+        padding: 0.5rem;
+    }
+}
+
+.iconCss {
+    background-color: #ffbc00;
+    border-radius: 50%;
+    font-size: 2.5rem !important;
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    color: white;
+    cursor: pointer;
+}
+
+.iconFooter {
+    position: fixed;
+    left: 0;
+    bottom: 3rem;
+    z-index: 1000;
+    width: calc(100% - 10rem);
+    text-align: end;
+}
+
+.MuiPickersToolbar-toolbar {
+    background-color: #ffbc00 !important;
+}
+.MuiPickersDay-daySelected {
+    background-color: #ffbc00 !important;
+}
+.css-8u39c-MuiTypography-root {
+    font-weight: 700 !important;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    width: -webkit-fill-available !important;
+}
+
